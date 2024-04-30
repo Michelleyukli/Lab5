@@ -32,7 +32,7 @@ def generate_content(prompt):
     return response.text
 
 # Streamlit UI for trip planning
-st.title("🏝️ AI Travel Planning")
+st.title("AI Travel Planning")
 
 prompt_template = """
 You are an expert at planning overseas trips.
